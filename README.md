@@ -45,4 +45,8 @@ A project that leverages **Retrieval-Augmented Generation (RAG)** and large lang
    VECTOR_DB_PATH=./vector_db
    ```
 
-
+### Testing the Custom Query
+Run the tests to ensure everything is set up correctly:
+   ```bash
+   pytest tests/test_custom_query.py -v
+   ```
